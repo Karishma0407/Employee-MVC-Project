@@ -1,0 +1,9 @@
+C:\Users\karis\Desktop\Vanier\Systems Development\Lab Exercises\Employee\EmployeeDB\bin\Debug\EmployeeDB.dll.config
+C:\Users\karis\Desktop\Vanier\Systems Development\Lab Exercises\Employee\EmployeeDB\bin\Debug\EmployeeDB.dll
+C:\Users\karis\Desktop\Vanier\Systems Development\Lab Exercises\Employee\EmployeeDB\bin\Debug\EmployeeDB.pdb
+C:\Users\karis\Desktop\Vanier\Systems Development\Lab Exercises\Employee\EmployeeDB\bin\Debug\EntityFramework.dll
+C:\Users\karis\Desktop\Vanier\Systems Development\Lab Exercises\Employee\EmployeeDB\bin\Debug\EntityFramework.xml
+C:\Users\karis\Desktop\Vanier\Systems Development\Lab Exercises\Employee\EmployeeDB\obj\Debug\EmployeeDB.csproj.CoreCompileInputs.cache
+C:\Users\karis\Desktop\Vanier\Systems Development\Lab Exercises\Employee\EmployeeDB\obj\Debug\EmployeeDB.csproj.CopyComplete
+C:\Users\karis\Desktop\Vanier\Systems Development\Lab Exercises\Employee\EmployeeDB\obj\Debug\EmployeeDB.dll
+C:\Users\karis\Desktop\Vanier\Systems Development\Lab Exercises\Employee\EmployeeDB\obj\Debug\EmployeeDB.pdb

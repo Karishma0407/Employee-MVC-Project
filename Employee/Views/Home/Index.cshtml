@@ -1,0 +1,28 @@
+﻿@model Employee.Model.SelectLists
+@{ 
+    ViewBag.Title = "Home Page";
+}
+@using (Html.BeginForm())
+{
+
+<div class="jumbotron">
+    <h1>My First MVC Website</h1>
+</div>
+
+<div class="row">
+    <div class="panel panel-default">
+        <div class="panel-heading"></div>
+        <div class="panel-body">
+            <div class="form-horizontal" id="freeze">
+                <div class="form-group">
+                    <div class="col-sm-2">
+                        <h2>Getting Employees</h2>
+                        @Html.DropDownList("Employee", Model.EmployeeList, new {@class = "form-control"})
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+}
+@section scripts{}
