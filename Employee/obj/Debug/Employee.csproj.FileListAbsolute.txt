@@ -96,3 +96,5 @@ C:\Users\karis\Desktop\Vanier\Systems Development\Lab Exercises\Employee\Employe
 C:\Users\karis\Desktop\Vanier\Systems Development\Lab Exercises\Employee\Employee\bin\Ninject.Web.Common.xml
 C:\Users\karis\Desktop\Vanier\Systems Development\Lab Exercises\Employee\Employee\bin\Ninject.Web.Common.WebHost.xml
 C:\Users\karis\Desktop\Vanier\Systems Development\Lab Exercises\Employee\Employee\bin\Ninject.Web.Mvc.xml
+C:\Users\karis\Source\Repos\Employee-MVC-Project\Employee\obj\Debug\Employee.csproj.AssemblyReference.cache
+C:\Users\karis\Source\Repos\Employee-MVC-Project\Employee\obj\Debug\Employee.csproj.CoreCompileInputs.cache

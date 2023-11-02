@@ -1,0 +1,10 @@
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\bin\Release\EmployeeDB.dll.config
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\bin\Release\EmployeeDB.dll
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\bin\Release\EmployeeDB.pdb
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\bin\Release\EntityFramework.dll
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\bin\Release\EntityFramework.xml
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\obj\Release\EmployeeDB.csproj.AssemblyReference.cache
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\obj\Release\EmployeeDB.csproj.CoreCompileInputs.cache
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\obj\Release\EmployeeDB.csproj.CopyComplete
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\obj\Release\EmployeeDB.dll
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\obj\Release\EmployeeDB.pdb

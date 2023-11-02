@@ -7,3 +7,13 @@ C:\Users\karis\Desktop\Vanier\Systems Development\Lab Exercises\Employee\Employe
 C:\Users\karis\Desktop\Vanier\Systems Development\Lab Exercises\Employee\EmployeeDB\obj\Debug\EmployeeDB.csproj.CopyComplete
 C:\Users\karis\Desktop\Vanier\Systems Development\Lab Exercises\Employee\EmployeeDB\obj\Debug\EmployeeDB.dll
 C:\Users\karis\Desktop\Vanier\Systems Development\Lab Exercises\Employee\EmployeeDB\obj\Debug\EmployeeDB.pdb
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\bin\Debug\EmployeeDB.dll.config
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\bin\Debug\EmployeeDB.dll
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\bin\Debug\EmployeeDB.pdb
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\bin\Debug\EntityFramework.dll
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\bin\Debug\EntityFramework.xml
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\obj\Debug\EmployeeDB.csproj.CoreCompileInputs.cache
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\obj\Debug\EmployeeDB.csproj.CopyComplete
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\obj\Debug\EmployeeDB.dll
+C:\Users\karis\Source\Repos\Employee-MVC-Project\EmployeeDB\obj\Debug\EmployeeDB.pdb
+C:\Users\karis\source\repos\Employee-MVC-Project\EmployeeDB\obj\Debug\EmployeeDB.csproj.AssemblyReference.cache

@@ -34,6 +34,72 @@ namespace Employee.Controllers
             return View(ddFilter);
         }
 
+        [HttpGet]
+        public ActionResult GetEmployee(int pageIndex, int pageSize, string sortField = "Id", string sortOrder = "desc")
+        {
+            IEnumerable<EmployeeDB.employee> EmployeeList = null;
+            IQueryable<EmployeeDB.employee> Query = null;
+            IEnumerable<EmployeeDB.Model.Employee> ResultList = null;
+
+            int itemsCount = 0;
+            var param = sortField;
+            var propertyInfo = typeof(EmployeeDB.employee).GetProperty(param);
+            int skip = (pageIndex - 1) * pageSize;
+
+            try
+            {
+                using (_Repo)
+                {
+                    Query = _Repo.GetEmployee();
+                    itemsCount = Query.Count();
+
+                    switch (sortField)
+                    {
+                        case "firstname":
+                            if(sortOrder == "asc")
+                            {
+                                EmployeeList = Query.OrderBy(S => S.firstname);
+                            }
+                            else if(sortOrder == "desc")
+                            {
+                                EmployeeList = Query.OrderByDescending(S => S.firstname);
+                            }
+                            break;
+                        case "lastname":
+                            if(sortOrder == "asc")
+                            {
+                                EmployeeList = Query.OrderBy(S => S.lastname);
+                            }
+                            else if(sortOrder == "desc")
+                            {
+                                EmployeeList = Query.OrderByDescending(S => S.lastname);
+                            }
+                            break;
+
+                        default:
+                            EmployeeList = Query.OrderByDescending(S => S.id);
+                            break;
+                    }
+                    ResultList = EmployeeList.Skip(skip)
+                        .Take(pageSize).ToList().ToList()
+                        .Select(T => _ModelMapping.LoadEmployee(T));
+
+                    var res = EmployeeList.GroupBy(x => x.id).Select(y => y.First());
+                }
+            }
+            catch (Exception ex)
+            {
+                //
+            }
+            var Result = new { data = ResultList, itemsCount = itemsCount };
+            if(Result == null)
+            {
+
+            }
+
+            return Json(Result, JsonRequestBehavior.AllowGet);
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

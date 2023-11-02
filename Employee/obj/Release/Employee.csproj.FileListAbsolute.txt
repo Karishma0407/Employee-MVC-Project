@@ -1,0 +1,2 @@
+C:\Users\karis\Source\Repos\Employee-MVC-Project\Employee\obj\Release\Employee.csproj.AssemblyReference.cache
+C:\Users\karis\Source\Repos\Employee-MVC-Project\Employee\obj\Release\Employee.csproj.CoreCompileInputs.cache
